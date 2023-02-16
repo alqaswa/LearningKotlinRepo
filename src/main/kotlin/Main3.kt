@@ -13,7 +13,7 @@ fun main(args: Array<String>)
     and this result can be used for further purpose*/
     val result=if (name=="Arshad")
     {
-        "Your name is Arshad"
+        "Your name is Qasim"
     }
     else
     {
