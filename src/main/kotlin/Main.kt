@@ -16,6 +16,6 @@ fun main(args: Array<String>)
     val name="Arshad"
 
     /*Cannot reassign*/
-    //name="Jasmin"
+    //name="Qasim"
     println("Name is $name")
 }
