@@ -36,3 +36,4 @@ fun multiply2(num1: Int,vararg num2: Int)
     result *= num1
     println("Multiplication is = $result")
 }
+
