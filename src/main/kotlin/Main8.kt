@@ -12,7 +12,7 @@ fun main(args: Array<String>)
 /*In this method we know that only two parameters are required by this method*/
 fun sums(num1:Int,num2:Int)
 {
-    println("$num1+$num2=${num1+num2}");
+    println("$num1+$num2=${num1+num2}")
 }
 
 /*Here num1 is now not a single number ,but it is an array of int*/
