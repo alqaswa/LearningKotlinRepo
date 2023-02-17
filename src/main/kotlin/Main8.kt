@@ -5,7 +5,7 @@
 * we want to multiple number of arguments which may be decided dynamically */
 fun main(args: Array<String>)
 {
-    multiply1(2,3,5,6)
+    multiply1(2,3,5,6,7)
     multiply2(2,5,3,4)
 }
 
