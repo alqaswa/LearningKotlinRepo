@@ -28,8 +28,8 @@ class First(age:Int,name:String)//This is called primary constructor
 * must be initialised, and it is done only when an object of class is created by using constructor of that class */
 class Second(age:Int,name:String)
 {
-    var age =age
-    var name =name
+    var age:Int
+    var name :String
 
     fun showInfo()
     {
@@ -37,11 +37,11 @@ class Second(age:Int,name:String)
         println("These values are changed in init from the values we pass in object creation of this class")
         println("name and age is :$name , $age")
     }
-    init
+    init/*It is same just like statements we create inside the constructor of java class*/
     {
         println("This init block called first whatever the position of this block in the class")
-        this.age=20
-        this.name="Naved"
+        this.age=age
+        this.name=name
     }
 }
 
