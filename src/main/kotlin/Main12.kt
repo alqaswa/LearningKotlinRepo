@@ -47,7 +47,7 @@ class Members
     }
 }
 
-//We can also create these static fields outside the class which can be accessed throughout the package like
+//We can also create these static fields outside the class which can be accessed throughout the package like.
 object StaticVariables
 {
     var mAge=20
