@@ -7,12 +7,13 @@ fun main(args: Array<String>)
 }
 
 /*Before inheriting any parent class in kotlin,it is very important to note that all the classes in kotlin are by default public and final and hence
-in order to inherit any class we have to make that parent class inheritable which is done by using 'open' keyword*/
+in order to inherit any class we have to make that parent class inheritable which is done by using 'open' keyword Also if we want to override the
+methods or variables of parent class in child class then these methods and variables also should be open as shown below*/
 
 //Parent class having no constructor or default constructor
 open class Parent1
 {
-
+    open var car:String="bmw"/*override by Child1 class*/
 }
 
 //Parent class having primary constructor
@@ -39,10 +40,11 @@ open class Parent4(age:Int,name:String)
     }
 }
 
+
 //Child class having no constructor and inheriting Parent1
 class Child1:Parent1()
 {
-
+    override var car:String="mercedez"
 }
 
 //Child class having primary constructor and inheriting Parent2
